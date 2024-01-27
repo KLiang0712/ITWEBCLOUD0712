@@ -1,0 +1,161 @@
+body {
+  font-family: Arial;
+}
+
+#title h1 {
+  background-color: #8AD4EB;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 2px 2px gold;
+  color: green;
+}
+
+/* cloud 1 */
+#chartdiv {
+  width: 100%;
+  height: 400px;
+  background-color: #EBF5FB;
+  font-weight: bold;
+}
+
+/* cloud 2 */
+.cloud {
+  width: 100%;
+  height: 300px;
+  background: #EBF5FB;
+  margin: auto;
+}
+
+.cloud h1 {
+  text-shadow: 2px 2px gold;
+  color: green;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.cloud h1:after {
+  line-height: 1px;
+  position: absolute;
+  font-size: 80px;
+  left: 360px;
+  top: 102px;
+  text-align: center;
+  color: #79f6fc;
+}
+
+.cloud .words {
+  position: absolute;
+}
+
+div#word1 {
+  color: green;
+  opacity: 0.8;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 400px;
+  text-shadow: 2px 2px 2px gold;
+}
+
+div#word2 {
+  color: green;
+  padding-left: 360px;
+  padding-top: 10px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #79f6fc;
+  font-size: 45px;
+}
+
+div#word3 {
+  color: #79f6fc;
+  padding-left: 445px;
+  padding-top: 23px;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px gold;
+}
+
+div#word4 {
+  color: green;
+  font-weight: bold;
+  padding-left: 500px;
+  padding-top: 30px;
+  text-shadow: 3px 3px 1px;
+  font-size: 50px;
+  opacity: 0.5;
+}
+
+div#word5 {
+  color: #79f6fc;
+  padding-top: 50px;
+  padding-left: 450px;
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 2px 2px 7px green;
+}
+
+div#word6 {
+  font-size: 45px;
+  text-shadow: 4px 4px 10px #79f6fc;
+  color: green;
+  opacity: 0.6;
+  padding-top: 40px;
+  padding-left: 360px;
+  font-weight: bold;
+}
+
+div#word7 {
+  font-size: 50px;
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  padding-left: 280px;
+  font-weight: bold;
+  padding-top: 330px;
+  color: green;
+  text-shadow: 2px 2px 5px #79F6FC;
+}
+
+/* References */
+.cites {
+  background: green;
+  color: gold;
+  font-weight: bold;
+  border: 5px solid #79F6FC;
+}
+
+.cites h1 {
+  text-align: center;
+  font-size: 40px;
+  color: gold;
+  background: green;
+  text-shadow: 2px 2px 5px #79F6FC;
+}
+
+.cites p {
+  font-size: 20px;
+}
+
+/*
+.controls button {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  border: 5px solid #8AD4EB;
+}
+
+.home {
+  border: 5px solid #8AD4EB;
+  font-weight: bold;
+  font-size: 30px;
+  color: green;
+  background-color: gold;
+  font-family: Arial;
+}
+
+.home:hover {
+  background-color: #EBF5FB;
+}
+*/ 
