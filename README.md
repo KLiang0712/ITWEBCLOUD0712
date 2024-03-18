@@ -8,7 +8,9 @@ Retrieved from https://www.amcharts.com/
 & Documentation is available at https://www.amcharts.com/docs/v4/
 
 CodePen Projects
+
 Source 1: https://codepen.io/team/amcharts/pen/pYzzxp
+
 Source 2: https://codepen.io/chloek/pen/aBWwXP
 
 Stack Overflow (2019) Fix Warning "Also define the standard property 'box-shadow' for compatibility"
