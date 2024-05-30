@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Chart plugins & functionality -->
+    <!-- amCharts 4 -->
+    <script src="//cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
+    <script src="//cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+    <!-- d3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3 cloud/1.2.5/d3.layout.cloud.min.js"></script>
+
+    <!-- echarts -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/95368/echarts-all-english-v2.js"></script>
+
+    <!-- highcharts -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Head content -->
+    <title>Word Clouds</title>
+      <link rel="stylesheet" href="/design/clouds.css" />
+      <link rel="stylesheet" href="/design/setup/menu.css" />
+      <link rel="stylesheet" href="/design/setup/styles.css" />
+    <link rel="icon" href="/images/favicon.svg" alt="techis" />
+  </head>
+
+  <body>
+    <section id="topnav">
+        <h1>
+          <img
+            class="icon"
+            src="/images/icon1-6.svg"
+            alt="icon"
+            height="60"
+            width="60"
+          />
+          <b><span class="font-primary">W</span>ord</b>
+          <b><span class="font-primary">C</span>louds</b>
+        </h1>
+    </section>
+
+    <section id="menu">
+      <a href="/index.html" style="--clr: #16bbce">
+        <span class="font-primary"><b>Home</b></span>
+        <i></i>
+      </a>
+
+      <a href="essay.html" style="--clr: #16bbce">
+        <span class="font-primary"><b>Essay</b></span>
+        <i></i>
+      </a>
+
+      <a href="#" style="--clr: #16bbce">
+        <span class="font-primary"><b>Clouds</b></span>
+        <i></i>
+      </a>
+
+      <a href="projects.html" style="--clr: #16bbce">
+        <span class="font-primary"><b>Summaries</b></span>
+        <i></i>
+      </a>
+    </section>
+    <br />
+    <div id="theme">
+      <h1>CAREER CRAFT CLOUDS<br />By Kory Liang</h1>
+    </div>
+    <br /><br />
+
+    <h1 id="cloud1">Word Cloud #1</h1>
+    <div id="tagcloud1"></div>
+    <br /><br />
+    <h1 id="cloud2">Word Cloud #2</h1>
+    <div id="tagcloud2">
+      <ul class="cloud" role="navigation" aria-label="Webdev word cloud">
+        <li><a href="#" data-weight="3">Apache</a></li>
+        <li><a href="#" data-weight="3">C++</a></li>
+        <li><a href="#" data-weight="6">MySQL</a></li>
+        <li><a href="#" data-weight="9">FrontEnd</a></li>
+        <li><a href="#" data-weight="6">BackEnd</a></li>
+        <li><a href="#" data-weight="3">DJango</a></li>
+        <li><a href="#" data-weight="9">LINK-CDNJS</a></li>
+        <li><a href="#" data-weight="6">JavaScript</a></li>
+        <li><a href="#" data-weight="3">MVC</a></li>
+        <li><a href="#" data-weight="9">MachineLearning</a></li>
+        <li><a href="#" data-weight="9">HTML5-CSS3</a></li>
+        <li><a href="#" data-weight="3">Java</a></li>
+        <li><a href="#" data-weight="9">GitHub</a></li>
+        <li><a href="#" data-weight="9">Python</a></li>
+        <li><a href="#" data-weight="3">C</a></li>
+        <li><a href="#" data-weight="3">Assembly</a></li>
+      </ul>
+    </div>
+
+    <br /><br />
+
+    <h1 id="cloud3">Word Cloud #3</h1>
+    <div id="tagcloud3"></div>
+    <br /><br />
+    <h1 id="cloud4">Word Cloud #4</h1>
+    <br>
+    <div id="tagcloud4"></div>
+    <br /><br />
+
+     <div class="notes">
+        <h4>Note: Project is subject to changes at any time. New cloud projects may be added or existing projects may be modified.
+        </h4>
+     </div>
+    <br /><br />
+    <script src="/backend/echarts.js"></script>
+    <script src="/backend/highcharts.js"></script>
+    <script src="/backend/script.js"></script>
+  </body>
+</html>

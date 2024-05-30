@@ -1,0 +1,70 @@
+#summary h1,
+#cites h1 {
+  font-size: 30px;
+  text-align: center;
+  background-color: #ebf9f8;
+  margin: 0;
+}
+
+/* content */
+h4,
+h6 {
+  margin-left: 60px;
+  font-size: 16px;
+}
+
+#theme {
+  background-color: #ebf9f8;
+  border: 5px solid #16bbce;
+  text-align: center;
+}
+
+.reflection1,
+.reflection2,
+.reflection3,
+.reflection4 {
+  border: 3px solid #16bbce;
+}
+
+.reflection1,
+.reflection2,
+.reflection3,
+.reflection4 h1 {
+  text-align: center;
+}
+
+/* cloud theme6 */
+div.jqcloud {
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  background-color: #ebf9f8;
+  border: 5px solid #16bbce;
+  font-size: 10px;
+  line-height: normal;
+}
+
+div.jqcloud a {
+  font-size: inherit;
+  text-decoration: none;
+}
+
+/* layout */
+div.jqcloud span {
+  padding: 0;
+}
+
+/* font % & colors */
+div.jqcloud span.w1,
+div.jqcloud span.w2,
+div.jqcloud span.w3,
+div.jqcloud span.w4,
+div.jqcloud span.w5,
+div.jqcloud span.w6,
+div.jqcloud span.w7,
+div.jqcloud span.w8,
+div.jqcloud span.w9,
+div.jqcloud span.w10 {
+  color: black;
+  font-size: 300%;
+}

@@ -1,0 +1,39 @@
+*,
+body {
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+#topnav {
+  background-color: #EBF9F8;
+}
+
+#topnav h1,
+h1 {
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+h1, h2 {
+  background-color: #EBF9F8;
+}
+
+h1 span {
+  color: #16bbce;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #16bbce;
+}
+
+h2 span {
+  color: black;
+}
+
+.notes {
+  background-color: #ebf9f8
+}

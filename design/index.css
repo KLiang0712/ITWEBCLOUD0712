@@ -1,0 +1,80 @@
+.name {
+  text-align: center;
+  margin-left: 100px;
+}
+
+.theme {
+  text-align: center;
+  margin-left: 20px;
+}
+
+/* ACES */
+section #about,
+#content,
+#edux,
+#skills {
+  margin: auto;
+  width: 100%;
+}
+
+#about p,
+h1 {
+  margin-left: 160px;
+}
+
+#about .email {
+  margin-left: 160px;
+}
+
+#about .contact-info .email,
+.profile3 {
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+#content .contact-icons {
+  flex-direction: row;
+}
+
+#content #card-link {
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  background-color: #EBF9F8;
+  border: 4px solid #33CCCC;
+  margin-left: 20px;
+}
+
+#content .github6,
+.exhibit6 {
+  border: 4px solid #16bbce;
+  font-size: 16px;
+  height: 240px;
+  margin-left: 160px;
+  width: 400px;
+}
+
+#content h5,
+h6 {
+  margin-left: 20px;
+}
+
+#edux .school,
+.bootcamp {
+  border: 4px solid #16bbce;
+  font-size: 16px;
+  height: 200px;
+  margin-left: 160px;
+  width: 400px;
+}
+
+#skills1-6 {
+  margin-left: 160px;
+  width: 100px;
+  height: 100px;
+}
+
+.square_circle {
+  margin-left: 100px;
+  border-radius: 50%;
+}
